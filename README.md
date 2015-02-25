@@ -38,3 +38,10 @@ sudo update-rc.d vncboot defaults
 ```
 
 Reboot your Raspberry Pi and you should find a VNC server already started.
+
+To connect to vnc use:
+```
+5.64.238.100:1
+```
+The first bit is your IP seperated by a colon (:) and then use 1.
+You will need to forward Port 5901 to access from outside LAN.
